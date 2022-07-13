@@ -118,7 +118,7 @@ pauseButton.addEventListener('click', () => {
 })
 
 setTimer.addEventListener('click', () => {
-  minutes = Number(prompt('Digite Quantos Minutos Para o Contador'))
+  minutes = Number(prompt('Digite Quantos Minutos Para o Contador')) || 25
   createHours()
   if (minutes < 60) {
     minutesDisplay.textContent = minutes
