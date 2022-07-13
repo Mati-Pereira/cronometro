@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Stage 05</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="showTimer" class="timer">
+      <span class="minutesDisplay">25</span>
+      <span> :</span>
+      <span class="secondsDisplay">00</span>
+    </h1>
+
+    <div class="icons">
+
+      <button id="play">
+        <img src="./assets/svg/play.svg" alt="play-button" class="play-button">
+        <img src="./assets/svg/pause.svg" alt="pause" class="pause-button hidden">
+      </button>
+
+      <button id="timer">
+        <img src="./assets/svg/timer.svg" alt="play-timer" class="play-timer">
+        <img src="./assets/svg/pause-timer.svg" alt="pause-timer" class="pause-timer hidden">
+      </button>
+
+    </div>
+  </div>
+  <button id="sound">
+    <img src="./assets/svg/sound.svg" alt="play-sound" class="play-sound">
+    <img src="./assets/svg/stop-sound.svg" alt="pause-sound" class="pause-sound hidden">
+  </button>
+  <script src="./index.js"></script>
+</body>
+
+</html>
