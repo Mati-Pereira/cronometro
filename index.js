@@ -68,7 +68,7 @@ playButton.addEventListener('click', () => {
     }
 
     console.log(minutesDisplay.textContent.valueOf(), typeof minutesDisplay.textContent, secondsDisplay.textContent.valueOf(), typeof secondsDisplay.textContent, hours.textContent.valueOf(), typeof hours.textContent);
-  }, 50);
+  }, 1000);
 
 })
 
